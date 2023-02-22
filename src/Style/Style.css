@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    margin: 26px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Great Vibes', cursive;
+}
+
+nav{
+    position: relative;
+}
+
+#vitto{
+    color: #8e1e1d;
+}
+
+#contador{
+    font-size: 0.6em;
+    width: 20px;
+    background-color: #fe3232;
+    color: white;
+    padding: 4.5px;
+    border-radius: 3em;
+    border: none;
+    position: absolute;
+    right: 78px;
+    top: -3px;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #e0e0e0;
+}
+#h1{
+    margin-left: 26px;
+}
+
+.icon{
+    font-size: 39px;
+    margin-left: 40px;
+}
+
+.article{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    position: relative;
+    width: 150px;
+    height: 180px;
+}
+
+.caja{
+    width: 90%;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: white;
+    border-radius: 1.5em;
+    bottom: 30px;
+    padding: 15px;
+}
+.pizzaimg{
+    width: 80px;
+    height: 80px;
+    border: 2px solid absolute;
+    position: absolute;
+    top: -9px;
+    left: 35px;
+}
+
+.pizzasdiv{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 450px;
+}
+
+.button{
+    width: 25px;
+    padding: 5px;
+    border-radius: 3em;
+    border: none;
+    align-self: flex-end;
+    background-color: orange;
+    color: white;
+}
+
+.fondos img {
+    position: absolute;
+    filter: opacity(0.8);
+}
+#albaca{
+    width: 400px;
+    top: -30px;
+    left: 250px;
+}
+#romero{
+    width: 280px;
+    top: -107px;
+    left: -80px;
+}
+
+#tomate{
+    width: 380px;
+    bottom: -150px;
+    left: -250px;
+}
